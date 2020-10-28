@@ -55,7 +55,7 @@ def test_show_comparative_countries_year():
 #  Main Program
 ################################################################
 POPULATIONS = read_populations('../data/population.csv')
-
+print(POPULATIONS)
 test_read_populations()
 #test_calculate_countries()
 #test_filter_by_country()
